@@ -28,13 +28,14 @@ print("R Squared value:", r_squared)
 #Loop through the data and print out the predicted prices and the 
 #actual prices
 predict = model.predict(xtest)
+# round the value in the np array to 2 decimal places
 predict = np.around(predict, 2)
 print(predict)
 
-print("***************")
-print("Testing Results")
+# compare the actual and predicted values
+print("\nTesting Multivariable Model with Testing Data:")
 for index in range(len(xtest)):
     actual = ytest[index] # gets the actual y value from the ytest dataset
     predicted_y = predict[index] # gets the predicted y value from the predict variable
     x_coord = xtest[index] # gets the x value from the xtest dataset
-    print(f"miles(000): {x_coord[0]} Price: {x_coord[1]} Actual: {actual} Predicted: {predicted_y}")
+    print(f"miles(000): {x_coord[0]} age: {x_coord[1]} Actual: {actual} Predicted: {predicted_y}")
