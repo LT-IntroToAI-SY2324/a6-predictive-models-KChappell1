@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 # imports the data and sets x and y values
 data = pd.read_csv("final-project/adult.csv")
 # ("part3-multivariable-linear-regression/antelope_data.csv")
-x = data[["age","workclass", "fnlwgt", "education", "education-num", "marital-status", "occupation", "relationship", "race", "sex", "capital-gain", "capital-loss", "hours-per-week", "native-country", "class"]].values
+x = data[["age","workclass", "fnlwgt", "education", "education-num", "marital-status", "occupation", "relationship", "race", "sex", "capital-gain", "Capital-loss", "Hours-per-week", "Native-country", "Class"]].values
 print(x)
 y = data["class"].values
 
