@@ -73,7 +73,7 @@ graph[12].set_ylabel("Class")
 
 
 
-print("Correlation between Annual Precipitation and income class:",round(x_1.corr(y),2))
+print("Correlation between Workclass and Class:",round(x_1.corr(y),2))
 print("Correlation between Winter Severity and income class:",round(x_2.corr(y),2))
 print("Correlation between Adult Population and income class:",round(x_3.corr(y),2))
 print("Correlation between Adult Population and income class:",round(x_4.corr(y),2))

@@ -21,3 +21,4 @@ Throughout this module, you have learned how to program both supervised and unsu
 
 - Real world implications
 
+I wasn't abe to get the code functional. There were so many variables to the data that managing the coefficients became rather difficult and tedious and I could not figure it out. It would have been applicable to pay estimates and identitfying inequities within the world should it have been funcitonal. 
